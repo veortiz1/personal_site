@@ -2,6 +2,9 @@ body{
     background-color: #444444;
     color:#AAFFCC;
     font-family: "Inter", serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 
 }
 
@@ -53,4 +56,47 @@ body{
     border-radius: 1rem;
     padding: .5rem;
     font-weight: 900;
+    color: #444444;
+}
+
+.text_body{
+    margin-top: 2rem;
+    width: 98%;
+    max-width: 91.875rem;
+
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.text_box{
+    width: 47%;
+    max-width: 44.0625rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+.title_text{
+    margin: 0;
+    font-size: 3rem;
+    font-weight: 900;
+}
+
+.body_text{
+    margin: 0;
+    font-weight: 400;
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+.img_div{
+
+    background-image: url('assets/selfie.PNG'); 
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    width: 50%;
+    height: 50%;
 }
