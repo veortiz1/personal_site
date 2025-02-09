@@ -1,0 +1,56 @@
+body{
+    background-color: #444444;
+    color:#AAFFCC;
+    font-family: "Inter", serif;
+
+}
+
+
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.topbar{
+    width: 98%;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 93.75rem;
+}
+
+.topbar a{
+    font-size: 1.25rem;
+    text-decoration: none;
+    color: #AAFFCC;
+    font-weight: 900;
+
+  
+   
+}
+
+.topbar_left{
+    width: 40%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 37.5rem;
+   
+
+}
+
+.topbar_middle{
+    width: 58%;
+    max-width: 54.375rem;
+    display: flex;
+    justify-content: end;
+   
+}
+
+.topbar button{
+    background-color: #AAFFCC;
+    border: none;
+    font-size: 1rem;
+    border-radius: 1rem;
+    padding: .5rem;
+    font-weight: 900;
+}
