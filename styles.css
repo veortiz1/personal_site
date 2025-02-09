@@ -10,6 +10,7 @@ body{
 
 
 .top{
+    padding-top: 1rem;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -60,7 +61,7 @@ body{
 }
 
 .text_body{
-    margin-top: 2rem;
+    margin-top: 4rem;
     width: 98%;
     max-width: 91.875rem;
 
@@ -91,12 +92,71 @@ body{
     line-height: 2;
 }
 
-.img_div{
+#underline{
+    text-decoration: underline;
+}
 
-    background-image: url('assets/selfie.PNG'); 
+.img_div{
+    background-image: linear-gradient(to bottom,rgba(0, 0, 0, 0.2), rgba(170, 255, 204, .3)), url('assets/selfie.png');
+
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat;
-    width: 50%;
-    height: 50%;
+    width: 60%;
+    aspect-ratio: 1;
+    border-radius: 1rem;
+    border: .2rem solid #AAFFCC;
+}
+
+#allign_center{
+    align-items: center;
+}
+
+.allign_left{
+    margin-top: 4rem;
+    width: 98%;
+    max-width: 91.875rem;
+    display: flex;
+    justify-content: start;
+}
+
+.languages{
+    width: 98%;
+    max-width: 91.875rem;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+.languages img{
+    width: 5rem;
+}
+
+#social_button{
+    margin: 0;
+    font-weight: 900;
+    font-size: 1.4rem;
+    background-color: #AAFFCC;
+    color: #444444;
+    font-family: "Inter", serif;
+    display: flex;
+    align-items: center;
+    border: none;
+    justify-content: center;
+    width: 20%;
+    border-radius: 1.5rem;
+    text-decoration: none;
+    margin-top: 1rem;
+    padding: .5rem;
+    
+
+
+}
+
+.margin_bottom{
+    margin-bottom: 4rem;
+}
+
+#social_button img{
+    width: 3.5rem;
+  
 }
